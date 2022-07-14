@@ -4,7 +4,7 @@ Model-Deployment-For-Wine-Quality
 
 Steps involved: Data Collection. Data Preprocessing. Exploratory Data Analysis Feature Engineering. Feature Selection. Feature Transformation. Model Building. Model Evaluation. Model Selection. Predictions. Model Deployment. In this project i've selected RandomForestClassifier Algorithm which gives a better accuracy on the data rather than the other models. Running on http://127.0.0.1:5000/
 
-Wine quality Predictor A Machine Learning Web App, Built with Flask, Deployed using Heroku.
+Wine quality Predictor A Machine Learning Web App, Built with Flask, Deployed 
 
 Fixed Acidity eg. 5.5
 
