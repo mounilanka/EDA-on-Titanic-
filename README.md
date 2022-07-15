@@ -6,6 +6,8 @@ Steps involved: Data Collection. Data Preprocessing. Exploratory Data Analysis F
 
 Wine quality Predictor A Machine Learning Web App, Built with Flask, Deployed using Heroku.
 
+         https://winequalityy.herokuapp.com/
+
 Fixed Acidity eg. 5.5
 
 Volatile eg.0.5
