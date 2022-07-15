@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Wine Quality Predictor</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='wine.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body style="background-color:rgb(249, 206, 241);">
+
+        <!-- Website Title -->
+    	<div align = "center" class="container">
+            <h2 class='container-heading'><span class="heading_font">Wine Quality Predictor</span></h2>
+            <div align="center" class ='description'>
+    		<p>A Machine Learning Web Appication</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div align="center" class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="fixed_acidity" placeholder="Fixed Acidity eg. 5.5"><br>
+                <input class="form-input" type="text" name="volatile_acidity" placeholder="Volatile eg.0.5"><br>
+                <input class="form-input" type="text" name="citric_acid" placeholder="Citric acid eg.0.05"><br>
+                <input class="form-input" type="text" name="residual_sugar" placeholder="Residual_sugar eg.2.5"><br>
+                <input class="form-input" type="text" name="chlorides" placeholder="Chlorides eg. 0.08"><br>
+                <input class="form-input" type="text" name="free_sulphur_dioxide" placeholder="Free_sulphur_dioxide eg. 10"><br>
+                <input class="form-input" type="text" name="total_sulphur_dioxide" placeholder="Total_sulphur_dioxide eg. 35"><br>
+                <input class="form-input" type="text" name="density" placeholder="Density eg. 0.99"><br>
+                <input class="form-input" type="text" name="ph" placeholder="ph eg. 3.15"><br>
+                <input class="form-input" type="text" name="sulphates" placeholder="Sulphates eg. 0.5"><br>
+                <input class="form-input" type="text" name="alcohol" placeholder="Alcohol eg. 6"><br>
+
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+
+         <!--===== FOOTER =====-->
+         <footer align ="center" class="footer">
+            
+                
+                <p>&copy;2022 Mounikalanka. All Rights Are Reserved.</p>
+                <p>Nice to See You...❤️😊</p>
+            </div>
+</html>
