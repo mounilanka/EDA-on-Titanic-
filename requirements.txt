@@ -11,8 +11,8 @@ MarkupSafe
 numpy
 requests
 scikit-learn
-scipy==1.5.4
-sklearn==0.0
+scipy
+sklearn
 threadpoolctl
 urllib3
 Werkzeug
