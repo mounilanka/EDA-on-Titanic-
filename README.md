@@ -30,4 +30,5 @@ sulphates eg. 0.5
 
 alcohol eg. 6
 
-predict
+predict![good wine](https://user-images.githubusercontent.com/107364907/179345173-541437a9-1c3a-45c6-a18e-437e935368dc.jpg)
+
