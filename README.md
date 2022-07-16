@@ -32,3 +32,4 @@ alcohol eg. 6
 
 predict
 
+![Screenshot 2022-07-16 130551](https://user-images.githubusercontent.com/107364907/179345310-73813298-2fc6-4dfc-88f6-e5d36c78c4f2.png)
